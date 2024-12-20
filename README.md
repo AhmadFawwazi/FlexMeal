@@ -3,4 +3,4 @@ FlexMeal: sebuah website yang menyediakan beberapa layanan seperti edukasi menge
 
 # How to use it?
 Akses layanan FlexMeal melalui link berikut:
-[text](https://flex-meal.vercel.app/)
+[FlexMeal](https://flex-meal.vercel.app/)
