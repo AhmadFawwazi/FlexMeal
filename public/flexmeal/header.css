@@ -1,0 +1,78 @@
+/* header.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Mengatur semua elemen agar padding & border termasuk dalam ukuran */
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    width: 100%; /* Memastikan header melebar penuh */
+    background: #88c534;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.searchbar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.searchbar button {
+    background: #00bfff;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}

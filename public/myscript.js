@@ -81,7 +81,7 @@ buttonSignin.addEventListener("click", async (e) => {
     });
 
     console.log("User berhasil login:", user);
-    location.href = "flexmeal/flex.html"; // Redirect ke halaman utama
+    location.href = "flexmeal/homepage.html"; // Redirect ke halaman utama
   } catch (error) {
     console.error("Error saat Sign In:", error);
     alert(error.message);

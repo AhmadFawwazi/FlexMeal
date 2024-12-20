@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlexMeal! Login</title>
     <link rel="icon" href="./flexmeal/images/FlexMeal.png" type="image/x-icon">
-    <script
-      src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <title>Sign in & Sign up Form</title>
   </head>
   <body>
@@ -17,6 +15,10 @@
       <div class="forms-container">
         <div class="signin-signup">
           <form action="#" class="sign-in-form">
+            <!-- Tambahkan logo -->
+            <div class="logo-container">
+              <img src="flexmeal/images/FlexMeal.png" alt="Logo" class="logo" />
+          </div>
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
@@ -29,13 +31,17 @@
             <input type="submit" value="Login" class="btn solid" id="button_signin"/>
           </form>
           <form action="#" class="sign-up-form">
+            <!-- Tambahkan logo -->
+            <div class="logo-container">
+              <img src="flexmeal/images/FlexMeal.png" alt="Logo" class="logo" />
+          </div>
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
               <input type="text" placeholder="Name" id="name" />
             </div>
             <div class="input-field">
-              <i class="fas fa-user"></i>
+              <i class="fas fa-phone"></i>
               <input type="text" placeholder="No HP" id="nohp" />
             </div>
             <div class="input-field">

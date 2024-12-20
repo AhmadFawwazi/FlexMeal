@@ -62,7 +62,7 @@ form.sign-in-form {
 
 .title {
   font-size: 2.2rem;
-  color: #444;
+  color: grey;
   margin-bottom: 10px;
 }
 
@@ -75,8 +75,9 @@ form.sign-in-form {
   border-radius: 55px;
   display: grid;
   grid-template-columns: 15% 85%;
-  padding: 0 0.4rem;
+  padding: 0;
   position: relative;
+  align-items: center;
 }
 
 .input-field i {
@@ -88,17 +89,19 @@ form.sign-in-form {
 }
 
 .input-field input {
-  background: none;
-  outline: none;
-  border: none;
-  line-height: 1;
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #333;
-}
+    background: none;
+    outline: none;
+    border: none;
+    height: 100%; /* Pastikan input mengisi penuh tinggi form */
+    padding: 0 10px; /* Tambahkan padding horizontal */
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: black;
+  }
+  
 
 .input-field input::placeholder {
-  color: #aaa;
+  color: #acacac;
   font-weight: 500;
 }
 
@@ -119,27 +122,27 @@ form.sign-in-form {
   justify-content: center;
   align-items: center;
   margin: 0 0.45rem;
-  color: #333;
+  color: white;
   border-radius: 50%;
-  border: 1px solid #333;
+  border: 1px solid white;
   text-decoration: none;
   font-size: 1.1rem;
   transition: 0.3s;
 }
 
 .social-icon:hover {
-  color: #ffcc00;
-  border-color: #ffcc00;
+  color: #88c534;
+  border-color: #88c534;
 }
 
 .btn {
   width: 150px;
-  background-color: #88c534;
+  background-color: #88c534; 
   border: none;
   outline: none;
   height: 49px;
   border-radius: 49px;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   font-weight: 600;
   margin: 10px 0;
@@ -148,7 +151,7 @@ form.sign-in-form {
 }
 
 .btn:hover {
-  background-color: #ffcc00;
+  background-color: #88c534;
 }
 .panels-container {
   position: absolute;
@@ -200,7 +203,7 @@ form.sign-in-form {
 }
 
 .panel .content {
-  color: #fff;
+  color: white;
   transition: transform 0.9s ease-in-out;
   transition-delay: 0.6s;
 }
@@ -219,7 +222,7 @@ form.sign-in-form {
 .btn.transparent {
   margin: 0;
   background: none;
-  border: 2px solid #fff;
+  border: 2px solid white;
   width: 130px;
   height: 41px;
   font-weight: 600;
@@ -398,3 +401,31 @@ form.sign-in-form {
     left: 50%;
   }
 }
+
+.input-field select {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #88c534;
+    padding: 0 0.4 rem;
+  }
+  
+  .input-field select option {
+    color: #88c534;
+    font-weight: 500;
+  }
+
+  .logo-container {
+    text-align: center; /* Tengahkan gambar */
+    margin-bottom: 10px; /* Beri jarak ke bawah */
+  }
+  
+  .logo {
+    width: 200px; /* Atur ukuran gambar */
+    height: auto;
+  }
+  
+  

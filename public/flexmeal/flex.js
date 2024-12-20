@@ -45,7 +45,7 @@ async function displaySearchResults() {
 
 
 
-      // function to show details of any meal
+// function to show details of any meal
 async function moreDetails() {
 content.innerHTML = '';
     let id = this.id;
